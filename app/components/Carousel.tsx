@@ -200,7 +200,7 @@ const Carousel = () => {
               </div>
               
               {/* Slide Title */}
-              <h2 className="text-4xl md:text-6xl lg:text-7xl text-gray-50 font-cormorant font-extrabold mb-6 drop-shadow-2xl max-w-4xl">
+              <h2 className="text-4xl md:text-6xl lg:text-6xl text-gray-50 font-cormorant font-extrabold mb-6 drop-shadow-2xl max-w-4xl">
                 {slide.title}
               </h2>
               
