@@ -55,12 +55,12 @@ const ExecutiveMembersSection: React.FC<ExecutiveMembersSectionProps> = ({
     ctaLink = "/team"
 }) => {
     return (
-        <section className="py-16 bg-gray-50 dark:bg-gray-900 transition-colors duration-300 overflow-hidden">
+        <section className="py-16 bg-gray-50 dark:bg-gray-950 transition-colors duration-300 overflow-hidden">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
                 {/* Header */}
                 <div className="text-center mb-16">
-                    <h2 className="text-4xl md:text-7xl text-blue-950 font-cormorant dark:text-gray-50 mb-4">
+                    <h2 className="text-4xl md:text-5xl text-blue-950 font-cormorant dark:text-gray-50 mb-4">
                         {title}
                     </h2>
                     <div className="relative inline-block">

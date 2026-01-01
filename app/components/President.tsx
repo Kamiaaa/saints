@@ -63,7 +63,7 @@ export default function President({
           transition={{ duration: 0.6, ease: 'easeOut' }}
           className="text-center mb-16 pt-8"
         >
-          <h2 className="text-4xl md:text-7xl font-cormorant text-blue-950 dark:text-gray-50 mb-4">
+          <h2 className="text-4xl md:text-5xl font-cormorant text-blue-950 dark:text-gray-50 mb-4">
             {title}
           </h2>
           <div className="relative inline-block">

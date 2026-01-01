@@ -131,7 +131,7 @@ const Navbar = () => {
 
   return (
     <header 
-      className={`fixed top-0 h-24 w-full z-50 transition-all duration-300 ${
+      className={`fixed top-0 h-16 w-full z-50 transition-all duration-300 ${
         isScrolled 
           ? 'bg-blue-950 dark:bg-blue-900 shadow-lg' 
           : 'bg-transparent dark:bg-transparent'
@@ -140,7 +140,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 flex justify-between items-center h-full">
         <Link href="/" className="text-2xl font-bold text-gray-900 dark:text-white">
           <Image
-            className="h-24 w-auto py-2"
+            className="h-16 w-auto py-2"
             src="/img/logo.jpg"
             alt="Logo"
             height={300}
