@@ -155,7 +155,7 @@ const Carousel = () => {
 
   if (slides.length === 0) {
     return (
-      <div className="w-full min-h-[calc(100vh-64px)] flex items-center justify-center bg-gray-100 mt-0">
+      <div className="w-full min-h-[calc(80vh-64px)] flex items-center justify-center bg-gray-100 mt-0">
         <div className="text-center">
           <FiUsers className="w-16 h-16 text-gray-400 mx-auto mb-4" />
           <p className="text-gray-600 mb-4">No slides available</p>
