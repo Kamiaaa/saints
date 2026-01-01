@@ -91,7 +91,7 @@ const ContactPage = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800">
+    <div className="min-h-screen bg-linear-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800">
       {/* Hero Section */}
       <div className="relative bg-gray-900 overflow-hidden">
         <div className="absolute inset-0 z-0">
@@ -105,7 +105,7 @@ const ContactPage = () => {
 
         <div className="relative z-10 py-24 sm:py-32 lg:py-40 px-4 sm:px-6 lg:px-8">
           {/* Back to Home Button */}
-          <div className="absolute top-6 left-6">
+          {/* <div className="absolute top-6 left-6">
             <Link href="/">
               <button className="flex items-center text-white hover:text-gray-200 transition-colors group">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2 group-hover:-translate-x-1 transition-transform" viewBox="0 0 20 20" fill="currentColor">
@@ -114,7 +114,7 @@ const ContactPage = () => {
                 Back to Home
               </button>
             </Link>
-          </div>
+          </div> */}
 
           <div className="text-center max-w-3xl mx-auto">
             <h1 className="text-4xl font-bold text-white sm:text-5xl lg:text-6xl mb-6">
